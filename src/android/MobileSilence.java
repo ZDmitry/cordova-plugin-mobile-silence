@@ -91,7 +91,7 @@ public class MobileSilence extends CordovaPlugin {
     public void onPause(boolean multitasking) {
         Log.v(TAG, TAG + "::onPause(bool)");
 
-        final AppPlugin self = this;
+        final MobileSilence self = this;
         m_restoreService = new Runnable() {
             public void run() {
                 self.restoreConnectivity();
