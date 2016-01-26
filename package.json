@@ -1,0 +1,35 @@
+{
+  "name": "cordova-plugin-mobile-silence",
+  "version": "0.0.1",
+  "description": "Cordova Mobile Silence Mode Plugin",
+  "cordova": {
+    "id": "cordova-plugin-mobile-silence",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zdmitry/cordova-plugin-mobile-silence.git"
+  },
+  "keywords": [
+    "mobile",
+    "silence",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova",
+    "phonegap"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/zdmitry/cordova-plugin-mobile-silence/issues"
+  },
+  "homepage": "https://github.com/zdmitry/cordova-plugin-mobile-silence#readme"
+}
