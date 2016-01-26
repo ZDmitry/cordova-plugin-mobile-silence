@@ -14,11 +14,11 @@
         <engine name="cordova" version=">=3.0.0"/>
     </engines>
 
-    <js-module src="www/mobileSilence.js" name="mobileSilence">
-        <clobbers target="cordova.plugins.mobileSilence"/>
-    </js-module>
-
     <platform name="android">
+        <js-module src="www/mobileSilence.js" name="mobileSilence">
+            <clobbers target="cordova.plugins.mobileSilence"/>
+        </js-module>
+
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="MobileSilence" >
                 <param name="android-package" value="com.cordova.zdmitry.mobilesilence.MobileSilence"/>
